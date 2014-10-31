@@ -1,0 +1,94 @@
+<h1>Captura de metas</h1>
+<%= paginate @formularios, :theme => 'bootstrap' %>
+
+<table class="table">
+  <tr>
+
+    <th>Responsable de Llenado</th>
+    <th>Fecha</th>
+    <th>Cod01</th>
+    <th>Cod02</th>
+    <th>Ape01</th>
+    <th>Ape02</th>
+    <th>Ape03</th>
+    <th>Ape04</th>
+    <th>Ape05</th>
+    <th>Ape06</th>
+    <th>Ape07</th>
+    <th>Api01</th>
+    <th>Api02</th>
+    <th>Api03</th>
+    <th>Api04</th>
+    <th>Ssb01</th>
+    <th>Cao01</th>
+    <th>Cao02</th>
+    <th>Cao03</th>
+    <th>Cao04</th>
+    <th>Cao05</th>
+    <th>Cao06</th>
+    <th>Cao07</th>
+    <th>Cao08</th>
+    <th>Cao09</th>
+    <th>Cao10</th>
+    <th>Cao11</th>
+    <th>Cao12</th>
+    <th>Tit01</th>
+    <th>Uni01</th>
+    <th>Uni02</th>
+    <th>Uni03</th>
+    <th>Ben01</th>
+    <th>Ben02</th>
+    <th>Per01</th>
+    <th>Per02</th>
+  </tr>
+
+  <% @formularios.each do |formulario| %>
+      <tr>
+
+        <td><%= formulario.responsable_llenado %></td>
+        <td><%= formulario.fecha %></td>
+        <td><%= formulario.cod01 %></td>
+        <td><%= formulario.cod02 %></td>
+        <td><%= formulario.ape01 %></td>
+        <td><%= formulario.ape02 %></td>
+        <td><%= formulario.ape03 %></td>
+        <td><%= formulario.ape04 %></td>
+        <td><%= formulario.ape05 %></td>
+        <td><%= formulario.ape06 %></td>
+        <td><%= formulario.ape07 %></td>
+        <td><%= formulario.api01 %></td>
+        <td><%= formulario.api02 %></td>
+        <td><%= formulario.api03 %></td>
+        <td><%= formulario.api04 %></td>
+        <td><%= formulario.ssb01 %></td>
+        <td><%= formulario.cao01 %></td>
+        <td><%= formulario.cao02 %></td>
+        <td><%= formulario.cao03 %></td>
+        <td><%= formulario.cao04 %></td>
+        <td><%= formulario.cao05 %></td>
+        <td><%= formulario.cao06 %></td>
+        <td><%= formulario.cao07 %></td>
+        <td><%= formulario.cao08 %></td>
+        <td><%= formulario.cao09 %></td>
+        <td><%= formulario.cao10 %></td>
+        <td><%= formulario.cao11 %></td>
+        <td><%= formulario.cao12 %></td>
+        <td><%= formulario.tit01 %></td>
+        <td><%= formulario.uni01 %></td>
+        <td><%= formulario.uni02 %></td>
+        <td><%= formulario.uni03 %></td>
+        <td><%= formulario.ben01 %></td>
+        <td><%= formulario.ben02 %></td>
+        <td><%= formulario.per01 %></td>
+        <td><%= formulario.per02 %></td>
+        <td><%= link_to 'Mostrar', formulario %></td>
+        <td><%= link_to 'Editar', edit_formulario_path(formulario) %></td>
+        <td><%= link_to 'Destruir', formulario, method: :delete, data: { confirm: '¿Estas seguro?' } %></td>
+      </tr>
+  <% end %>
+</table>
+
+<br />
+
+<a href="/formularios.xls">Descarga Archivo XLS</a> <br />
+<%= link_to 'Nueva Captura', new_formulario_path %>

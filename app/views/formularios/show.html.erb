@@ -1,0 +1,184 @@
+<div class="container">
+
+  <% flash.each do |name, msg| %>
+
+  <div class= "alert alert-<%= name == :notice ? "success" :"error" %>">
+
+    <%= msg %>
+  </div>
+      <% end %>
+</div>
+
+<p>
+  <b>Cod01:</b>
+  <%= @formulario.cod01 %>
+</p>
+
+<p>
+  <b>Cod02:</b>
+  <%= @formulario.cod02 %>
+</p>
+
+<p>
+  <b>Ape01:</b>
+  <%= @formulario.ape01 %>
+</p>
+
+<p>
+  <b>Ape02:</b>
+  <%= @formulario.ape02 %>
+</p>
+
+<p>
+  <b>Ape03:</b>
+  <%= @formulario.ape03 %>
+</p>
+
+<p>
+  <b>Ape04:</b>
+  <%= @formulario.ape04 %>
+</p>
+
+<p>
+  <b>Ape05:</b>
+  <%= @formulario.ape05 %>
+</p>
+
+<p>
+  <b>Ape06:</b>
+  <%= @formulario.ape06 %>
+</p>
+
+<p>
+  <b>Ape07:</b>
+  <%= @formulario.ape07 %>
+</p>
+
+<p>
+  <b>Api01:</b>
+  <%= @formulario.api01 %>
+</p>
+
+<p>
+  <b>Api02:</b>
+  <%= @formulario.api02 %>
+</p>
+
+<p>
+  <b>Api03:</b>
+  <%= @formulario.api03 %>
+</p>
+
+<p>
+  <b>Api04:</b>
+  <%= @formulario.api04 %>
+</p>
+
+<p>
+  <b>Ssb01:</b>
+  <%= @formulario.ssb01 %>
+</p>
+
+<p>
+  <b>Cao01:</b>
+  <%= @formulario.cao01 %>
+</p>
+
+<p>
+  <b>Cao02:</b>
+  <%= @formulario.cao02 %>
+</p>
+
+<p>
+  <b>Cao03:</b>
+  <%= @formulario.cao03 %>
+</p>
+
+<p>
+  <b>Cao04:</b>
+  <%= @formulario.cao04 %>
+</p>
+
+<p>
+  <b>Cao05:</b>
+  <%= @formulario.cao05 %>
+</p>
+
+<p>
+  <b>Cao06:</b>
+  <%= @formulario.cao06 %>
+</p>
+
+<p>
+  <b>Cao07:</b>
+  <%= @formulario.cao07 %>
+</p>
+
+<p>
+  <b>Cao08:</b>
+  <%= @formulario.cao08 %>
+</p>
+
+<p>
+  <b>Cao09:</b>
+  <%= @formulario.cao09 %>
+</p>
+
+<p>
+  <b>Cao10:</b>
+  <%= @formulario.cao10 %>
+</p>
+
+<p>
+  <b>Cao11:</b>
+  <%= @formulario.cao11 %>
+</p>
+
+<p>
+  <b>Cao12:</b>
+  <%= @formulario.cao12 %>
+</p>
+
+<p>
+  <b>Tit01:</b>
+  <%= @formulario.tit01 %>
+</p>
+
+<p>
+  <b>Uni01:</b>
+  <%= @formulario.uni01 %>
+</p>
+
+<p>
+  <b>Uni02:</b>
+  <%= @formulario.uni02 %>
+</p>
+
+<p>
+  <b>Uni03:</b>
+  <%= @formulario.uni03 %>
+</p>
+
+<p>
+  <b>Ben01:</b>
+  <%= @formulario.ben01 %>
+</p>
+
+<p>
+  <b>Ben02:</b>
+  <%= @formulario.ben02 %>
+</p>
+
+<p>
+  <b>Per01:</b>
+  <%= @formulario.per01 %>
+</p>
+
+<p>
+  <b>Per02:</b>
+  <%= @formulario.per02 %>
+</p>
+
+
+<%= link_to 'Editar', edit_formulario_path(@formulario) %> |
+<%= link_to 'Volver', formularios_path %>

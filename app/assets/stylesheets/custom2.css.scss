@@ -1,0 +1,86 @@
+@import "bootstrap" ;
+
+/* universal */
+html {
+  overflow-y: scroll;
+}
+body {
+  padding-top: 60px;
+}
+
+section {
+  overflow: auto;
+}
+textarea {
+  resize: vertical;
+}
+.center {
+  text-align: center;
+}
+.center h1 {
+  margin-bottom: 10px;
+}
+
+
+/* header */
+#logo {
+  float: left;
+  margin-right: 10px;
+  font-size: 1.7em;
+  color: rgb(82, 73, 73);
+  text-transform: uppercase;
+  letter-spacing: -1px;
+  padding-top: 9px;
+  font-weight: bold;
+  line-height: 1;
+}
+#logo:hover {
+  background-color:none;
+  color: gray;
+  text-decoration: none;
+}
+
+
+.navbar-inner-salud {
+
+  padding-left: 20px;
+  padding-right: 20px;
+  @include gradient-vertical(gray, white);
+  @include border-radius(4px);
+  $shadow: 0 1px 3px rgba(255, 149, 128, 0.20), inset 0 -1px 0 rgba(222, 222, 222, 0.86);
+  @include box-shadow($shadow);
+}
+
+.navbar-letras-salud{
+
+  color: rgb(12, 6, 6);
+
+
+
+}
+
+/* footer */
+footer {
+  margin-top: 45px;
+  padding-top: 5px;
+  border-top: 1px solid #eaeaea;
+  color: #999;
+}
+footer a {
+  color: #555;
+}
+
+footer a:hover {
+  color: #222;
+}
+footer small {
+  float: left;
+}
+footer ul {
+  float: right;
+  list-style: none;
+}
+footer ul li {
+  float: left;
+  margin-left: 10px;
+}

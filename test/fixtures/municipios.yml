@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  id_efederativa: 1
+  id_municipio_ant: 1
+  municipio: MyString
+
+two:
+  id_efederativa: 1
+  id_municipio_ant: 1
+  municipio: MyString

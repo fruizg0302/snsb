@@ -1,0 +1,73 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  cod01: 1
+  cod02: 1
+  ape01: 1
+  ape02: 1
+  ape03: 1
+  ape04: 1
+  ape05: 1
+  ape06: 1
+  ape07: 1
+  api01: 
+  api02: 1
+  api03: 1
+  api04: 1
+  ssb01: 1
+  cao01: 1
+  cao02: 1
+  cao03: 1
+  cao04: 1
+  cao05: 1
+  cao06: 1
+  cao07: 1
+  cao08: 1
+  cao09: 1
+  cao10: 1
+  cao11: 1
+  cao12: 1
+  tit01: 1
+  uni01: 1
+  uni02: 1
+  uni03: 1
+  ben01: 1
+  ben02: 1
+  per01: 1
+  per02: 1
+
+two:
+  cod01: 1
+  cod02: 1
+  ape01: 1
+  ape02: 1
+  ape03: 1
+  ape04: 1
+  ape05: 1
+  ape06: 1
+  ape07: 1
+  api01: 
+  api02: 1
+  api03: 1
+  api04: 1
+  ssb01: 1
+  cao01: 1
+  cao02: 1
+  cao03: 1
+  cao04: 1
+  cao05: 1
+  cao06: 1
+  cao07: 1
+  cao08: 1
+  cao09: 1
+  cao10: 1
+  cao11: 1
+  cao12: 1
+  tit01: 1
+  uni01: 1
+  uni02: 1
+  uni03: 1
+  ben01: 1
+  ben02: 1
+  per01: 1
+  per02: 1
