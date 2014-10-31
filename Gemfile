@@ -11,7 +11,6 @@ gem "client_side_validations", "~> 3.2.5"
 gem 'kaminari', "~> 0.14.1"
 gem "to_xls", '~> 1.5.2'
 gem 'jquery-rails'
-gem "kaminari", "~> 0.14.1"
 gem "newrelic_rpm", "~> 3.7.2.195"
 gem "tiny_tds", '~> 0.6.1'
 #gem 'activerecord-postgresql-adapter'
@@ -30,4 +29,3 @@ group :assets do
   gem 'coffee-rails', '~> 3.2.1'
   gem 'uglifier', '>= 1.0.3'
 end
-
